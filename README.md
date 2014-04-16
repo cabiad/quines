@@ -17,9 +17,18 @@ Sample Run
 ===
 
     $ make test
+    Save quine output to temp files...
+    quine.filecheat.py tmpfile: /tmp/QUINE_FILECHEAT.out.6yBsGe
+    quine.py tmpfile: /tmp/QUINE.out.tcjY0H
+    Save quine output to temp files...DONE
+
     Testing __file__ 'cheat' version...
     Displaying diff (should be blank, make aborts otherwise):
-    Testing __file__ 'cheat' version... SUCCESS!
+    Testing __file__ 'cheat' version... DONE
+
     Testing traditional quine...
     Displaying diff (should be blank, make aborts otherwise):
-    Testing traditional quine... SUCCESS!
+    Testing traditional quine... DONE
+
+    Clean up tmpfiles...
+    Clean up tmpfiles...DONE
